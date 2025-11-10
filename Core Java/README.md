@@ -18,9 +18,11 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**JDK, JRE, JVM**](Basics/JVM%20JRE%20JDK.md)
 
+- [**Stack** and **Heap**](Basics/Stack%20and%20Heap.md)
+
 - [**static** Keyword ](Basics/static%20Keyword.md)
 
-- [**this vs super** Keyword](Basics/this%20vs%20super%20Keyword.md)
+- [**this** vs **super** Keyword](Basics/this%20vs%20super%20Keyword.md)
 
 ### [2. Strings and Memory Management](Strings/README.md)
 

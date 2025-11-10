@@ -16,7 +16,7 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 ### [1. Core Java Basics](Basics/README.md)
 
-- [Static Keyword in Java](Basics/Static%20Keyword.md)
+- [Static Keyword in Java](Basics/static%20Keyword.md)
 
 ### [2. Strings and Memory Management](Strings/README.md)
 

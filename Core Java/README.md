@@ -14,15 +14,19 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 ## Topics Covered
 
-### [1. Strings and Memory Management](Strings/README.md)
+### [1. Core Java Basics](Basics/README.md)
 
-- [1 Strings in Java](Strings/1.%20Strings%20in%20Java.md)  
+- [Static Keyword in Java](Basics/Static%20Keyword.md)
 
-- [2 How Strings are stored](Strings/2.%20How%20Strings%20are%20stored.md)  
+### [2. Strings and Memory Management](Strings/README.md)
 
-- [3. Mutable Strings in Java](Strings/3.%20Mutable%20Strings.md)
+- [Strings in Java](Strings/1.%20Strings%20in%20Java.md)  
 
-- [4. String Manipulation and Regex](Strings/4.%20String%20Manipulation%20and%20Regex.md)
+- [How Strings are stored](Strings/2.%20How%20Strings%20are%20stored.md)  
+
+- [Mutable Strings in Java](Strings/3.%20Mutable%20Strings.md)
+
+- [String Manipulation and Regex](Strings/4.%20String%20Manipulation%20and%20Regex.md)
 
 ---
 

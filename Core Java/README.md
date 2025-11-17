@@ -14,7 +14,7 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 ## Topics Covered
 
-### [1. Core Java Basics](Basics/README.md)
+### [1. Core Java Basics](Basics/)
 
 - [**JDK, JRE, JVM**](Basics/JVM%20JRE%20JDK.md)
 
@@ -28,7 +28,7 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**Constructors** in Java](Basics/Constructors.md)
 
-### [2. Strings and Memory Management](Strings/README.md)
+### [2. Strings and Memory Management](Strings/)
 
 - [**Strings** in Java](Strings/1.%20Strings%20in%20Java.md)  
 
@@ -37,6 +37,12 @@ This section covers fundamental and advanced Java concepts essential for backend
 - [**Mutable Strings** in Java](Strings/3.%20Mutable%20Strings.md)
 
 - [String Manipulation and Regex](Strings/4.%20String%20Manipulation%20and%20Regex.md)
+
+### [3. Object-Oriented Programming (OOP) Concepts](OOPs/)
+
+- [**Encapsulation** in Java](OOPs/Encapsulation%20in%20Java.md)
+
+- [**Polymorphism** in Java](OOPs/Polymorphism%20in%20Java.md)
 
 ---
 

@@ -46,6 +46,10 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**Polymorphism** in Java](OOPs/Polymorphism%20in%20Java.md)
 
+- [**Abstraction** in Java](OOPs/Abstraction%20in%20Java.md)
+
+- [**Upcasting and Downcasting** in Java](OOPs/Upcasting%20and%20Downcasting.md)
+
 ---
 
 We will continue to expand this section with more topics and in-depth guides on Java programming concepts. Stay tuned for updates!

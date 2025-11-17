@@ -18,6 +18,8 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**JDK, JRE, JVM**](Basics/JVM%20JRE%20JDK.md)
 
+- [How a **Java** file Runs](Basics/%20How%20a%20Java%20file%20Runs.md)
+
 - [**Stack** and **Heap**](Basics/Stack%20and%20Heap.md)
 
 - [**static** Keyword ](Basics/static%20Keyword.md)

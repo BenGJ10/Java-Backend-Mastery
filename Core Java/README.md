@@ -42,6 +42,8 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**Encapsulation** in Java](OOPs/Encapsulation%20in%20Java.md)
 
+- [**Inheritance** in Java](OOPs/Inheritance%20in%20Java.md)
+
 - [**Polymorphism** in Java](OOPs/Polymorphism%20in%20Java.md)
 
 ---

@@ -24,6 +24,8 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**static** Keyword ](Basics/static%20Keyword.md)
 
+- [**final** Keyword](Basics/final%20Keyword.md)
+
 - [**this** vs **super** Keyword](Basics/this%20vs%20super%20Keyword.md)
 
 - [**Constructors** in Java](Basics/Constructors.md)

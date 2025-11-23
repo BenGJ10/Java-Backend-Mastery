@@ -17,8 +17,11 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
 - ### [Core Java Concepts](Core%20Java/README.md)
 
+  - #### [Java Basics Refresher](Core%20Java/Basics/)
+
   - #### [Strings and Memory Management](Core%20Java/Strings/)
 
+  - #### [OOPs Principles](Core%20Java/OOPs/)
 
 ## Goals / Intended outcomes
 

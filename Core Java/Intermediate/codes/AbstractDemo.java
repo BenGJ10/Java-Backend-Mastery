@@ -27,5 +27,14 @@ public class AbstractDemo {
         Car myCar = new Sedan(); // Creating an object of the subclass (concrete class)
         myCar.drive(); // Calling the implemented abstract method
         myCar.stop();  // Calling the non-abstract method
+
+        // Another way to use abstract classes is through anonymous classes
+        Car myAnonymousCar = new Car() {    
+            public void drive() {
+                System.out.println("Driving an anonymous car.");
+            }
+        };
+        myAnonymousCar.drive(); // Calling the implemented abstract method in the anonymous class
+        myAnonymousCar.stop();  // Calling the non-abstract method
     }
 }

@@ -23,6 +23,8 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
   - #### [OOPs Principles](Core%20Java/OOPs/)
 
+  - #### [Interfaces and Abstract Classes](Core%20Java/Intermediate/)
+
 ## Goals / Intended outcomes
 
 - Become fluent with advanced Java (concurrency, JVM internals, performance).

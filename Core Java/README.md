@@ -66,6 +66,8 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**Annotation** in Java](Intermediate/Annotations.md)
 
+- [**Functional Interfaces** in Java](Intermediate/Functional%20Interfaces.md)
+
 - [**Enums** in Java](Intermediate/Enums.md)
 
 

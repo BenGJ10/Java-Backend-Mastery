@@ -70,6 +70,7 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**Enums** in Java](Intermediate/Enums.md)
 
+- [**Lambda Expressions** in Java](Intermediate/Lambda%20Expressions.md)
 
 ---
 

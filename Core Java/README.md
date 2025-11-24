@@ -52,6 +52,8 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**Upcasting and Downcasting** in Java](OOPs/Upcasting%20and%20Downcasting.md)
 
+- [**instanceof** Operator](OOPs/instanceof%20Operator.md)
+
 ### [4. Interfaces and Abstract Classes](Intermediate/)
 
 - [**Abstract** Classes](Intermediate/abstract%20Keyword.md)
@@ -59,6 +61,13 @@ This section covers fundamental and advanced Java concepts essential for backend
 - [**Anonymous Inner** Classes](Intermediate/Inner%20Class%20and%20Anonymous%20Class.md)
 
 - [**Interfaces** in Java](Intermediate/Interfaces.md)
+
+- [**Class** vs **Interface** vs **Abstract Class**](Intermediate/Class%20vs%20Abstract%20Class%20vs%20Interface.md)
+
+- [**Annotation** in Java](Intermediate/Annotations.md)
+
+- [**Enums** in Java](Intermediate/Enums.md)
+
 
 ---
 

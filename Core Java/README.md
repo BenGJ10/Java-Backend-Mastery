@@ -72,6 +72,10 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**Lambda Expressions** in Java](Intermediate/Lambda%20Expressions.md)
 
+### [5. Exception Handling](Exception%20Handling//)
+
+- [Different Types of **Errors**](Exception%20Handling/Different%20Types%20of%20Errors.md)
+
 ---
 
 We will continue to expand this section with more topics and in-depth guides on Java programming concepts. Stay tuned for updates!

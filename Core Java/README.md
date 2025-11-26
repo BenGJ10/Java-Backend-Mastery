@@ -80,6 +80,8 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [Exception **Hierarchy** in Java](Exception%20Handling/Exception%20Hierarchy.md)
 
+- [**throw** vs **throws** Keyword](Exception%20Handling/throw%20vs%20throws.md)
+
 ---
 
 We will continue to expand this section with more topics and in-depth guides on Java programming concepts. Stay tuned for updates!

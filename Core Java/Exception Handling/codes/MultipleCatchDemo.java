@@ -5,6 +5,7 @@ public class MultipleCatchDemo {
             int[] numbers = {1, 2, 3};
             System.out.println(numbers[5]); // This will throw ArrayIndexOutOfBoundsException
             int result = 10 / 0; // This will throw ArithmeticException
+            System.out.println(result);
         } 
         catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Array index is out of bounds: " + e.getMessage());

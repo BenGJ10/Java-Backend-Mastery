@@ -25,6 +25,8 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
   - #### [Interfaces and Abstract Classes](Core%20Java/Intermediate/)
 
+  - #### [Exception Handling](Core%20Java/Exception%20Handling/)
+  
 ## Goals / Intended outcomes
 
 - Become fluent with advanced Java (concurrency, JVM internals, performance).

@@ -76,6 +76,10 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [Different Types of **Errors**](Exception%20Handling/Different%20Types%20of%20Errors.md)
 
+- [**Exception Handling** in Java](Exception%20Handling/Exception%20Handling.md)
+
+- [Exception **Hierarchy** in Java](Exception%20Handling/Exception%20Hierarchy.md)
+
 ---
 
 We will continue to expand this section with more topics and in-depth guides on Java programming concepts. Stay tuned for updates!

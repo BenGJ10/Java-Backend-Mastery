@@ -26,6 +26,11 @@ This repository is a study and practice roadmap for achieving mastery in backend
   - #### [Interfaces and Abstract Classes](Core%20Java/Intermediate/)
 
   - #### [Exception Handling](Core%20Java/Exception%20Handling/)
+
+- ### [Advanced Java Concepts](Advance%20Java/README.md)
+
+  - #### [Threads and Concurrency](Advance%20Java/Threads/)
+
   
 ## Goals / Intended outcomes
 
@@ -43,8 +48,7 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
 ## Contribution & workflow
 
-- Use branches per feature or project.
-- Include tests and a README for each sample project.
+If you feel like something is missing or could be improved, feel free to open an issue or submit a pull request. Contributions are welcome!
 
 ## License
 

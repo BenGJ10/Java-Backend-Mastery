@@ -84,6 +84,14 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 ---
 
-We will continue to expand this section with more topics and in-depth guides on Java programming concepts. Stay tuned for updates!
+## Next Steps
+
+Once you finish the Core Java section, you can proceed to the **[Advance Java Concepts](../Advance%20Java/README.md)** to explore more complex topics like multithreading, concurrency, and collections.
+
+---
+
+## Contribution
+
+If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request. Your contributions are welcome!
 
 ---

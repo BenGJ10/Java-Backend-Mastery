@@ -16,8 +16,11 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 ### [1. Threads in Java](Threads/)
 
-- [**Threads and Multithreading**](Threads/Threads%20in%20Java.md)
+- [**Threads** and **Multithreading**](Threads/Threads%20in%20Java.md)
 
+- [**Runnable** vs **Thread Class**](Threads/Runnable%20vs%20Threads.md)
+
+- [**Thread Synchronization**](Threads/Thread%20Synchronization.md)
 ---
 
 ## Under Development

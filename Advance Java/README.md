@@ -21,6 +21,11 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 - [**Runnable** vs **Thread Class**](Threads/Runnable%20vs%20Threads.md)
 
 - [**Thread Synchronization**](Threads/Thread%20Synchronization.md)
+
+### [2. Collections Framework](Collections/)
+
+- [**Collections** Overview](Collections/Collections%20in%20Java.md)
+
 ---
 
 ## Under Development

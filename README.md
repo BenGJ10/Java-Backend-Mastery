@@ -31,6 +31,8 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
   - #### [Threads and Concurrency](Advance%20Java/Threads/)
 
+  - #### [Collections Framework](Advance%20Java/Collections/)
+
   
 ## Goals / Intended outcomes
 

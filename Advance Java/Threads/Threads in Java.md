@@ -94,6 +94,8 @@ t.start();
 
 A thread goes through several states defined in `Thread.State`.
 
+![Diagram of Thread States](images/thread_states.png)
+
 ```
 NEW → RUNNABLE → RUNNING → BLOCKED/WAITING → TERMINATED
 ```

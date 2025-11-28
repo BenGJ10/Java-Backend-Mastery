@@ -8,7 +8,7 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - Each markdown file provides clear explanations, diagrams, and code snippets to illustrate key concepts.
 
-- Code examples are included in the `codes` subdirectory for hands-on practice.
+- **Code examples** are included in the `codes` subdirectory for hands-on practice.
 
 ---
 
@@ -29,6 +29,11 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 - [**Collections API**](Collections/Collections%20API.md)
 
 - [How **ArrayList** works?](Collections/ArrayList.md)
+
+- [How **Map** works?](Collections/Map.md)
+
+- [How **Set** works?](Collections/Set.md)
+
 ---
 
 ## Under Development

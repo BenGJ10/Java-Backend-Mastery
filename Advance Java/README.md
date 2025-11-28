@@ -26,6 +26,9 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Collections** Overview](Collections/Collections%20in%20Java.md)
 
+- [**Collections API**](Collections/Collections%20API.md)
+
+- [How **ArrayList** works?](Collections/ArrayList.md)
 ---
 
 ## Under Development

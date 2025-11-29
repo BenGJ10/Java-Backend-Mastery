@@ -15,17 +15,17 @@ public class TryWithResourcesDemo {
 
     // Another way to demonstrate try-with-resources is using finally block
     public static void demoFinallyBlock() throws IOException {
-        BufferedReader reader = null;
-        try {
-            reader = new BufferedReader(new InputStreamReader(System.in));
+        
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             System.out.print("Enter your age: ");
             String age = reader.readLine();
             System.out.println("You are " + age + " years old.");
         } 
-        finally {
-            if (reader != null) {
-                reader.close();        
-            }  
-        }
+        // As we are using try-with-resources, the resource will be closed automatically. No need for the following finally block.
+        // finally {
+        //     if (reader != null) {
+        //         reader.close();        
+        //     }  
+        // }
     }            
 }

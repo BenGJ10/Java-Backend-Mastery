@@ -34,6 +34,8 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [How **Set** works?](Collections/Set.md)
 
+- [**Sequence Collections** in Java](Collections/Sequence%20Collections.md)
+
 ---
 
 ## Under Development

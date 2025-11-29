@@ -4,6 +4,7 @@ public class ThrowAndThrowsDemo {
     static int divide(int dividend, int divisor) throws ArithmeticException {
         if (divisor == 0) {
             // Using `throw` to manually throw exception
+            // ❗️❗️ If we don't throw an execption here, JVM will throw ArithmeticException automatically and the program will terminate
             throw new ArithmeticException("Divisor cannot be zero!");
         }
         return dividend / divisor;
@@ -25,5 +26,8 @@ public class ThrowAndThrowsDemo {
         finally {
             System.out.println("Program executed successfully.");
         }
+
+        // Just because we are having throws in method signature, we still need to handle the exception
+        // Without handling, the program will terminate abruptly
     }
 }

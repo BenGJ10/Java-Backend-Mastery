@@ -80,7 +80,11 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [Exception **Hierarchy** in Java](Exception%20Handling/Exception%20Hierarchy.md)
 
+- [**Checked** vs **Unchecked** Exceptions](Exception%20Handling/Checked%20vs%20Unchecked%20Exceptions.md)
+
 - [**throw** vs **throws** Keyword](Exception%20Handling/throw%20vs%20throws.md)
+
+- [**Exception Methods** in Java](Exception%20Handling/Exception%20Methods.md)
 
 ---
 

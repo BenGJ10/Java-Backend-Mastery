@@ -77,6 +77,9 @@ Stack is **LIFO (Last In First Out)**.
 
 When a method finishes, its stack frame is removed.
 
+Each thread has its own stack, so stack memory is **not shared**.
+
+
 ---
 
 ## 5. Method Area (Class Area)

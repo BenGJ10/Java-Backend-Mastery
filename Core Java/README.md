@@ -86,6 +86,11 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**Exception Methods** in Java](Exception%20Handling/Exception%20Methods.md)
 
+### [6. Java Memory Management](Memory%20Management/)
+
+- [**Memory Management** in Java](Memory%20Management/Memory%20Management.md)
+
+- [**Garbage Collection** in Java](Memory%20Management/Garbage%20Collection.md)
 ---
 
 ## Next Steps

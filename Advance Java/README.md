@@ -20,6 +20,10 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Generics** vs **Wildcards**](Generics/Generics%20vs%20Wildcards.md)
 
+- [**Type Erasure** in Java](Generics/Type%20Erasure.md)
+
+- [**Covariance** and **Contravariance**](Generics/Covariance%20and%20Contravariance.md)
+
 ### [2. Threads in Java](Threads/)
 
 - [**Threads** and **Multithreading**](Threads/Threads%20in%20Java.md)

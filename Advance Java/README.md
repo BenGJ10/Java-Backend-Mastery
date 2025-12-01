@@ -14,7 +14,13 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 ## Topics Covered
 
-### [1. Threads in Java](Threads/)
+### [1. Generics in Java](Generics/)
+
+- [**Generics** Overview](Generics/Generics.md)
+
+- [**Generics** vs **Wildcards**](Generics/Generics%20vs%20Wildcards.md)
+
+### [2. Threads in Java](Threads/)
 
 - [**Threads** and **Multithreading**](Threads/Threads%20in%20Java.md)
 
@@ -22,7 +28,7 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Thread Synchronization**](Threads/Thread%20Synchronization.md)
 
-### [2. Collections Framework](Collections/)
+### [3. Collections Framework](Collections/)
 
 - [**Collections** Overview](Collections/Collections%20in%20Java.md)
 
@@ -33,6 +39,8 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 - [How **Map** works?](Collections/Map.md)
 
 - [How **Set** works?](Collections/Set.md)
+
+- [**Comparator** vs **Comparable**](Collections/Comparator%20vs%20Comparable.md)
 
 - [**Sequence Collections** in Java](Collections/Sequence%20Collections.md)
 

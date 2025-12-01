@@ -29,6 +29,8 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
 - ### [Advanced Java Concepts](Advance%20Java/README.md)
 
+  - #### [Generics in Java](Advance%20Java/Generics/)
+  
   - #### [Threads and Concurrency](Advance%20Java/Threads/)
 
   - #### [Collections Framework](Advance%20Java/Collections/)

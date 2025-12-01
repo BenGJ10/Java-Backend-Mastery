@@ -58,13 +58,13 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**Abstract** Classes](Intermediate/abstract%20Keyword.md)
 
-- [**Static** Classes vs **Non-Static** Classes](Intermediate/Static%20vs%20Non%20Static%20class.md)
+- [**Static** Classes vs **Non-Static** Classes](Intermediate/Static%20class%20vs%20Non%20Static%20class.md)    
 
 - [**Anonymous Inner** Classes](Intermediate/Inner%20Class%20and%20Anonymous%20Class.md)
 
 - [**Interfaces** in Java](Intermediate/Interfaces.md)
 
-- [**Class** vs **Interface** vs **Abstract Class**](Intermediate/Static%20class%20vs%20Non%20Static%20class.md)
+- [**Class** vs **Interface** vs **Abstract Class**](Intermediate/Class%20vs%20Abstract%20Class%20vs%20Interface.md)
 
 - [**Annotation** in Java](Intermediate/Annotations.md)
 

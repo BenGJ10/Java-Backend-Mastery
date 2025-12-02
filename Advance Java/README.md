@@ -52,6 +52,11 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Sequence Collections** in Java](Collections/Sequence%20Collections.md)
 
+### [4. Streams in Java](Streams/)
+
+- [**Streams** Overview](Streams/Streams.md)
+
+
 ---
 
 ## Under Development

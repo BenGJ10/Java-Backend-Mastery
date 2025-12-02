@@ -4,12 +4,11 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
 ## How to use this repository
 
-- Navigate to each section's README to find topics and links to detailed explanations.
+- Navigate to each section's `README` to find topics and links to detailed explanations.
 
 - Each section contains markdown files explaining key concepts, along with code samples in the `codes` subdirectory.
 
 - If stuck or needing clarification, refer to official documentation or trusted Java resources.
-
 
 - Follow the topics in order, practicing with the code examples and building your own projects as you go.
 
@@ -34,6 +33,8 @@ This repository is a study and practice roadmap for achieving mastery in backend
   - #### [Threads and Concurrency](Advance%20Java/Threads/)
 
   - #### [Collections Framework](Advance%20Java/Collections/)
+
+  - #### [Streams in Java](Advance%20Java/Streams/)
 
   
 ## Goals / Intended outcomes

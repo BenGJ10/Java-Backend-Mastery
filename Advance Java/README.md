@@ -34,6 +34,10 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 ### [3. Collections Framework](Collections/)
 
+- [**Wrapper Classes** in Java](Collections/Wrapper%20Classes.md)
+
+- [**Autoboxing** and **Unboxing**](Collections/Autoboxing%20and%20Unboxing.md)
+
 - [**Collections** Overview](Collections/Collections%20in%20Java.md)
 
 - [**Collections API**](Collections/Collections%20API.md)

@@ -5,6 +5,7 @@
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamMethodsPractice {
     public static void main(String[] args) {
@@ -21,6 +22,19 @@ public class StreamMethodsPractice {
 
         System.out.println("Even distinct numbers cubed (limited to 5): " + evenDistinctNumbers);
 
-        
+
+        List<List<String>> sentenceList = Arrays.asList(
+                Arrays.asList("JAVA", "IS", "SIMPLE"),
+                Arrays.asList("BUT", "POWERFUL"),
+                Arrays.asList("STREAMS", "ARE", "FUN", "TO", "USE"));
+
+        // Using Streams to flatten a list of lists and collect unique words
+        Stream<String> uniqueWords = sentenceList.stream()
+                .flatMap((List<String> sentence) -> sentence.stream()
+                .map((String word) -> word.toLowerCase())); // Converts each word to lowercase
+
+        System.out.print("\nUnique words in lowercase: ");
+        uniqueWords.forEach(word -> System.out.print(word + " "));
+
     }
 }

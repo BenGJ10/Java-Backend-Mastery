@@ -56,6 +56,8 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Streams** Overview](Streams/Streams.md)
 
+- [**Parallel Streams** in Java](Streams/Parallel%20Streams.md)
+
 
 ---
 

@@ -50,6 +50,8 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Comparator** vs **Comparable**](Collections/Comparator%20vs%20Comparable.md)
 
+- [**Singleton** Class and **Immutable** Class](Collections/Singleton%20and%20Immutable%20Class.md)
+
 - [**Sequence Collections** in Java](Collections/Sequence%20Collections.md)
 
 ### [4. Streams in Java](Streams/)
@@ -58,6 +60,7 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Parallel Streams** in Java](Streams/Parallel%20Streams.md)
 
+- [**Optional** Class in Java](Streams/Optional%20Class.md)
 
 ---
 

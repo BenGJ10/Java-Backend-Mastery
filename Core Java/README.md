@@ -20,6 +20,10 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [How a **Java** file Runs](Basics/%20How%20a%20Java%20file%20Runs.md)
 
+- [How **Float** and **Double** is stored](Basics/How%20Float%20and%20Double%20is%20stored.md)
+
+- [**Data Types** in Java](Basics/Primitive%20DataTypes.md)
+
 - [**Stack** and **Heap**](Basics/Stack%20and%20Heap.md)
 
 - [**static** Keyword ](Basics/static%20Keyword.md)

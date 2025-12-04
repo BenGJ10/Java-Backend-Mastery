@@ -62,6 +62,8 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Optional** Class in Java](Streams/Optional%20Class.md)
 
+- [**Method References** in Java](Streams/Method%20Reference.md)
+
 ---
 
 ## Under Development

@@ -18,6 +18,8 @@ This section focuses on mastering relational database concepts, SQL, Java Databa
 
 - [Introduction to **JDBC**](JDBC/Introduction%20to%20JDBC.md)
 
+- [JDBC **Architecture**](JDBC/JDBC%20Architecture.md)
+
 ---
 
 ## Contribution

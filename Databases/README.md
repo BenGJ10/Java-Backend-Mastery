@@ -23,6 +23,9 @@ This section focuses on mastering relational database concepts, SQL, Java Databa
 ### [2. PostgreSQL Database](PostgreSQL%20Basics/)
 
 - [Introduction to **PostgreSQL**](PostgreSQL%20Basics/Introduction%20to%20PostgreSQL.md)
+
+- [PostgreSQL **Cheatsheet**](PostgreSQL%20Basics/Complete%20PostgreSQL%20Cheatsheet.md)
+
 ---
 
 ## Contribution

@@ -20,6 +20,9 @@ This section focuses on mastering relational database concepts, SQL, Java Databa
 
 - [JDBC **Architecture**](JDBC/JDBC%20Architecture.md)
 
+### [2. PostgreSQL Database](PostgreSQL%20Basics/)
+
+- [Introduction to **PostgreSQL**](PostgreSQL%20Basics/Introduction%20to%20PostgreSQL.md)
 ---
 
 ## Contribution

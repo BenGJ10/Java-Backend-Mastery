@@ -36,6 +36,11 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
   - #### [Streams in Java](Advance%20Java/Streams/)
 
+- ### [Database Concepts](Databases/)
+
+  - #### [JDBC Basics](Databases/JDBC/)
+
+---
   
 ## Goals / Intended outcomes
 

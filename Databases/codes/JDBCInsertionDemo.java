@@ -6,7 +6,7 @@ public class JDBCInsertionDemo {
         // Initializing connection variables
         String url = "jdbc:postgresql://localhost:5432/demo"; 
         String user = "postgres";
-        String password = "Kuriakose@2005";
+        String password = "password";
 
         try{
             // Load the JDBC driver - Optional for newer JDBC versions

@@ -96,6 +96,8 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**JIT Compiler** in Java](Memory%20Management/JIT%20Compiler.md)
 
+- [**Class Loading** in Java](Memory%20Management/Class%20Loading.md)
+
 - [**Memory Management** in Java](Memory%20Management/Memory%20Management.md)
 
 - [**Garbage Collection** in Java](Memory%20Management/Garbage%20Collection.md)

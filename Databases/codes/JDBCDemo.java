@@ -20,18 +20,17 @@ public class JDBCDemo {
             Statement stmt = conn.createStatement();
 
             // 4. Execute a query
-            String sql = "SELECT \"StudentID\", \"StudentName\", \"Department\", \"Marks\" " +
-            "FROM management WHERE \"Marks\" > 50"; // Adjusted for PostgreSQL case sensitivity
+            String sql = "SELECT student_id, student_name, department, marks FROM management WHERE marks > 70";
 
             ResultSet rs = stmt.executeQuery(sql);
 
             // 5. Process the result set
             while(rs.next()){
-                int id  = rs.getInt("StudentId");
-                String name = rs.getString("StudentName");
-                String dept = rs.getString("Department");
-                int marks = rs.getInt("Marks"); 
-                System.out.println("ID: " + id + ", Name: " + name + ", Department: " + dept + ", Marks: " + marks);
+                int id  = rs.getInt("student_id");
+                String name = rs.getString("student_name");
+                String dept = rs.getString("department");
+                int marks = rs.getInt("marks"); 
+                System.out.println("Student ID: " + id + ", Name: " + name + ", Department: " + dept + ", Marks: " + marks);
 
             }            
             // 6. Close the resources

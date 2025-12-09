@@ -6,7 +6,7 @@ public class JDBCDemo {
         // Initializing connection variables
         String url = "jdbc:postgresql://localhost:5432/demo"; // default for PostgreSQL is 5432
         String user = "postgres";
-        String password = "Kuriakose@2005";
+        String password = "password";
 
         try {
             // 1. Load the JDBC driver

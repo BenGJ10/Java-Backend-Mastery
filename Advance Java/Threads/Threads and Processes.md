@@ -141,23 +141,23 @@ java.lang.OutOfMemoryError: Java heap space
 Regardless of language, OS allocates typical memory segments:
 
 ```
-+----------------------------+
-| Code Segment (Text)        |
++-------------------------------+
+| Code Segment (Text)           |
 | - JVM executable machine code |
-+----------------------------+
-| Data Segment               |
-| - Global variables |
-| - Static data |
-+----------------------------+
-| Heap                       |
-| - Runtime allocated objects |
-+----------------------------+
-| Stack (per thread)         |
-| - Local vars, frames |
-+----------------------------+
-| Registers                  |
-| - PC, SP, general regs |
-+----------------------------+
++-------------------------------+
+| Data Segment                  |
+| - Global variables            |
+| - Static data                 |
++-------------------------------+
+| Heap                          |
+| - Runtime allocated objects   |
++-------------------------------+
+| Stack (per thread)            |
+| - Local vars, frames          |
++-------------------------------+
+| Registers                     |
+| - PC, SP, general regs        |
++-------------------------------+
 ```
 
 ---

@@ -10,9 +10,12 @@ class RunnableA implements Runnable {
 
 public class RunnableDemo {
     public static void main(String[] args) {
+        
         // We need to create Runnable objects first then pass them to Thread constructor
-        RunnableA runnableA = new RunnableA();
-        Thread threadA = new Thread(runnableA);
+        RunnableA runnableA = new RunnableA(); // We create a runnable object
+        
+        // Passing runnable object to Thread constructor
+        Thread threadA = new Thread(runnableA); // It will internally call run() method of RunnableA class
         
         // Creating thread using lambda expression
         Runnable runnableB = () -> {
@@ -20,6 +23,7 @@ public class RunnableDemo {
         };
         Thread threadB = new Thread(runnableB);
         
+        // Starting the threads
         threadA.start();
         threadB.start();
     }    

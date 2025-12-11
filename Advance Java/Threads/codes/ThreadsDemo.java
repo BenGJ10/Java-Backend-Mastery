@@ -34,6 +34,8 @@ class AthleteB extends Thread {
 
 public class ThreadsDemo {
     public static void main(String[] args) {
+        
+        // As we are extending Thread, we can create instances of our thread classes directly. No need for Runnable interface here.
         AthleteA athleteA = new AthleteA();
         AthleteB athleteB = new AthleteB();
 

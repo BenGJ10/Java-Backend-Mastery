@@ -32,6 +32,10 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Runnable** vs **Thread Class**](Threads/Runnable%20vs%20Threads.md)
 
+- [**Deadlocks** in Java](Threads/Deadlocks%20in%20Java.md)
+
+- [**Daemon Threads** in Java](Threads/Daemon%20Threads.md)
+
 - [**Thread Synchronization**](Threads/Thread%20Synchronization.md)
 
 ### [3. Collections Framework](Collections/)

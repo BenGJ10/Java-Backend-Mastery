@@ -40,6 +40,8 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
   - #### [JDBC Basics](Databases/JDBC/)
 
+  - #### [PostgreSQL with Java](Databases/PostgreSQL%20Basics/)
+
 ---
   
 ## Goals / Intended outcomes

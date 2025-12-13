@@ -38,6 +38,8 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Thread Synchronization**](Threads/Thread%20Synchronization.md)
 
+- [**Custom Locks** in Java](Threads/Locks%20and%20Semaphores.md)
+
 ### [3. Collections Framework](Collections/)
 
 - [**Wrapper Classes** in Java](Collections/Wrapper%20Classes.md)

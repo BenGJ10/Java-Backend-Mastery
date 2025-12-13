@@ -24,13 +24,15 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Covariance** and **Contravariance**](Generics/Covariance%20and%20Contravariance.md)
 
-### [2. Threads in Java](Threads/)
+### [2. Threads and Conurrency](Threads/)
 
 - [**Threads** and **Multithreading**](Threads/Threads%20in%20Java.md)
 
 - [**Threads** and **Processes**](Threads/Threads%20and%20Processes.md)
 
 - [**Runnable** vs **Thread Class**](Threads/Runnable%20vs%20Threads.md)
+
+- [**Conceptual Overview of Concurrency ⭐️**](Threads/Conceptual%20Overview%20of%20Everything.md)
 
 - [**Deadlocks** in Java](Threads/Deadlocks%20in%20Java.md)
 
@@ -41,6 +43,7 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 - [**Custom Locks** in Java](Threads/Locks%20and%20Semaphores.md)
 
 - [**Lock-Free** Concurrency](Threads/Lock%20Free%20Concurrency.md)
+
 
 ### [3. Collections Framework](Collections/)
 

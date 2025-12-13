@@ -32,7 +32,7 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Runnable** vs **Thread Class**](Threads/Runnable%20vs%20Threads.md)
 
-- [**Conceptual Overview of Concurrency ⭐️**](Threads/Conceptual%20Overview%20of%20Everything.md)
+- [**Conceptual Overview of Concurrency**](Threads/Conceptual%20Overview%20of%20Everything.md) ⭐️
 
 - [**Deadlocks** in Java](Threads/Deadlocks%20in%20Java.md)
 

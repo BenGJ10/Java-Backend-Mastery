@@ -40,6 +40,8 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Custom Locks** in Java](Threads/Locks%20and%20Semaphores.md)
 
+- [**Lock-Free** Concurrency](Threads/Lock%20Free%20Concurrency.md)
+
 ### [3. Collections Framework](Collections/)
 
 - [**Wrapper Classes** in Java](Collections/Wrapper%20Classes.md)

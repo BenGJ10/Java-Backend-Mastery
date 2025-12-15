@@ -261,6 +261,17 @@ Student s = session.load(Student.class, 1);
 * Hits DB only on property access
 * Throws exception if record doesn’t exist
 
+**❗️❗️Both of these methods are deprecated in favor of `find()` in JPA.**
+
+#### `find` – Recommended Fetch
+
+```java
+Student s = session.find(Student.class, 1);
+```
+
+* JPA-compliant
+* Immediate fetch
+
 ---
 
 ### 7.3 Updating an Object (UPDATE)
@@ -282,6 +293,8 @@ Hibernate automatically:
 
 * Detects modified fields
 * Generates UPDATE SQL at commit
+
+**❗️ update() method is deprecated in favor of automatic dirty checking.**
 
 ---
 

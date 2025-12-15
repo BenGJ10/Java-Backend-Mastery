@@ -4,13 +4,15 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
 ## How to use this repository
 
-- Navigate to each section's `README` to find topics and links to detailed explanations.
 
-- Each section contains markdown files explaining key concepts, along with code samples in the `codes` subdirectory.
+- Navigate to each section's **`README`** to find topics and links to detailed explanations.
 
-- If stuck or needing clarification, refer to official documentation or trusted Java resources.
+- **Fork** this repository for proper `hands-on practice` and to track your learning progress.
 
-- Follow the topics in order, practicing with the code examples and building your own projects as you go.
+- Each section contains markdown files explaining key concepts, along with code samples in the **`codes`** subdirectory.
+
+- If stuck or needing clarification, refer to official documentation or trusted `Java resources`.
+
 
 ## Contents
 

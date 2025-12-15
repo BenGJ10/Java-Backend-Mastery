@@ -24,6 +24,8 @@ This section focuses on mastering relational database concepts, SQL, Java Databa
 
 - [JDBC **Methods Overview**](JDBC/JDBC%20Methods%20Overview.md)
 
+- [JDBC **Code Demonstrations**](codes/) ⭐️
+
 ### [2. PostgreSQL Database](PostgreSQL%20Basics/)
 
 - [Introduction to **PostgreSQL**](PostgreSQL%20Basics/Introduction%20to%20PostgreSQL.md)
@@ -35,6 +37,10 @@ This section focuses on mastering relational database concepts, SQL, Java Databa
 - [Introduction to **Hibernate**](Hibernate/What%20is%20Hibernate.md)
 
 - [Complete Hibernate **Saving Workflow**](Hibernate/Hibernate%20Saving%20Workflow.md)
+
+- [**Code Demonstrations** for Hibernate](Hibernate/codes/HibernateDemo/src/main/java/com/bengregory/) ⭐️
+
+- [Hibernate **Annotations**](Hibernate/Annotations%20in%20Hibernate.md)
 
 ---
 

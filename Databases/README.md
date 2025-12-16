@@ -42,6 +42,8 @@ This section focuses on mastering relational database concepts, SQL, Java Databa
 
 - [Hibernate **Annotations**](Hibernate/Annotations%20in%20Hibernate.md)
 
+- [**Mapping Relationships** in Hibernate](Hibernate/Mapping%20Relationships.md)
+
 ---
 
 ## Contribution

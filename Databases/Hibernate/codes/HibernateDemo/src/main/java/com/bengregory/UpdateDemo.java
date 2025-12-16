@@ -37,13 +37,7 @@ public class UpdateDemo {
         session.close();
         sf.close();
 
-        if (student1 != null) {
-            System.out.println(student1);
-            System.out.println(student1.getName() + " is updated!");
-        }
-        else {
-            System.out.println("Student not found");
-        }
-
+        System.out.println(student1);
+        System.out.println(student1.getName() + " is updated!");
     }
 }

@@ -44,6 +44,8 @@ This section focuses on mastering relational database concepts, SQL, Java Databa
 
 - [**Mapping Relationships** in Hibernate](Hibernate/Mapping%20Relationships.md)
 
+- [Hibernate **Caching** Mechanism](Hibernate/Hibernate%20Caching.md)
+
 ---
 
 ## Contribution

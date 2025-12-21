@@ -46,6 +46,10 @@ This section focuses on mastering relational database concepts, SQL, Java Databa
 
 - [Hibernate **Caching** Mechanism](Hibernate/Hibernate%20Caching.md)
 
+- [Hibernate **Query Language (HQL)**](Hibernate/Hibernate%20Query%20Language.md) ⭐️
+
+- [The **N+1 Select Problem** in Hibernate](Hibernate/The%20N+1%20problem.md)    
+
 ---
 
 ## Contribution

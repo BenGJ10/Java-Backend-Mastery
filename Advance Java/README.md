@@ -24,6 +24,8 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Covariance** and **Contravariance**](Generics/Covariance%20and%20Contravariance.md)
 
+---
+
 ### [2. Threads and Conurrency](Threads/)
 
 - [**Threads** and **Multithreading**](Threads/Threads%20in%20Java.md)
@@ -44,6 +46,9 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Lock-Free** Concurrency](Threads/Lock%20Free%20Concurrency.md)
 
+- [**Thread Pools** in Java](Threads/ThreadPools%20in%20Java.md)
+
+---
 
 ### [3. Collections Framework](Collections/)
 
@@ -66,6 +71,8 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 - [**Singleton** Class and **Immutable** Class](Collections/Singleton%20and%20Immutable%20Class.md)
 
 - [**Sequence Collections** in Java](Collections/Sequence%20Collections.md)
+
+---
 
 ### [4. Streams in Java](Streams/)
 

@@ -195,7 +195,10 @@ t2.start();
 
 Same Runnable → multiple threads execute it.
 
-You **cannot** do this with Thread subclass objects.
+You **cannot** do this with Thread subclass objects. Because Threads have lifecycle tied to their instance.
+But in case of Runnable, multiple Thread instances can share the same Runnable task.
+
+**Runnable is just a task definition, Thread is a worker executing that task.**
 
 ---
 

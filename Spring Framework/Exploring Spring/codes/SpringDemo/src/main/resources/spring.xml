@@ -6,6 +6,7 @@
     </bean>
 
     <bean id= "department" class = "com.bengregory.Department" scope="singleton">
+        <property name="name" value="CSE"></property>
     </bean>
 </beans>
 

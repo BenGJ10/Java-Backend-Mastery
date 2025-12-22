@@ -3,10 +3,12 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id= "employee" class = "com.bengregory.Employee" scope="prototype">
+        <constructor-arg value="Ben Gregory"/>  <!-- constructor injection -->
+        <constructor-arg value="20"/>
     </bean>
 
     <bean id= "department" class = "com.bengregory.Department" scope="singleton">
-        <property name="name" value="CSE"></property>
+        <property name="name" value="CSE"/> <!-- setter injection -->
     </bean>
 </beans>
 

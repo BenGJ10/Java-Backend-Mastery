@@ -11,16 +11,15 @@ public class App
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml"); 
         
         // Singleton scope objects are loaded when the application context is created
-        Department department1 = (Department) context.getBean("department");
-        department1.printDetails();
+        Department department = (Department) context.getBean("department");
+        department.printDetails();
 
         // Prototype scope objects are created when requested from the application context for beans
         Employee employee1 = (Employee) context.getBean("employee");
-        employee1.name = "Ben Gregory"; 
         employee1.printDetails();
 
-        Employee employee2 = (Employee) context.getBean("employee");
-        employee2.printDetails();
+//        Employee employee2 = (Employee) context.getBean("employee");
+//        employee2.printDetails();
 
 
 

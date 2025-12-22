@@ -27,6 +27,9 @@ The Spring Framework is a powerful, feature-rich framework for building Java app
 
 - [Spring **Bean Lifecycle**](Exploring%20Spring/Spring%20Bean%20Lifecycle.md)
 
+- [**Types** of **Dependency Injection** in Spring](Exploring%20Spring/Types%20of%20Dependency%20Injection.md)
+
+
 ---
 
 ## Under Development

@@ -48,6 +48,14 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
 ---
   
+- ### [Spring Framework](Spring%20Framework/README.md)
+
+  - #### [Spring Core](Spring%20Framework/Introduction/)
+
+  - #### [Exploring Spring](Spring%20Framework/Exploring%20Spring/)
+
+---
+
 ## Goals / Intended outcomes
 
 - Become fluent with advanced Java (concurrency, JVM internals, performance).

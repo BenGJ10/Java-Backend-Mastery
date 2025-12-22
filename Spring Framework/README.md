@@ -21,6 +21,12 @@ The Spring Framework is a powerful, feature-rich framework for building Java app
 
 - [**Inversion of Control (IoC)** and **Dependency Injection (DI)**](Introduction/Inversion%20of%20Control%20and%20Dependency%20Injection.md)
 
+- [Application Context vs Spring Bean Factory](Introduction/Application%20Context%20and%20Spring%20Factory.md)
+
+### [2. Spring Core](Exploring%20Spring/)
+
+- [Spring **Bean Lifecycle**](Exploring%20Spring/Spring%20Bean%20Lifecycle.md)
+
 ---
 
 ## Under Development

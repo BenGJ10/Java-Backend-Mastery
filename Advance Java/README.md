@@ -48,6 +48,10 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Thread Pools** in Java](Threads/ThreadPools%20in%20Java.md)
 
+- [**Synchronous** vs **Asynchronous**](Threads/Sync%20vs%20Async%20Programming.md)
+
+- [**Future Interfaces** in Java](Threads/Future%20Interfaces.md)
+
 ---
 
 ### [3. Collections Framework](Collections/)

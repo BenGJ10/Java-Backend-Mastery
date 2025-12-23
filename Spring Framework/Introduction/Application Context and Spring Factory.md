@@ -57,7 +57,7 @@ MyService service = factory.getBean(MyService.class);
 
 ---
 
-## 2.4 When to Use BeanFactory?
+### 2.4 When to Use BeanFactory?
 
 * Memory-constrained environments
 * Simple applications
@@ -69,7 +69,7 @@ In modern Spring applications, BeanFactory is **rarely used directly**.
 
 ## 3. ApplicationContext
 
-## 3.1 What Is ApplicationContext?
+### 3.1 What Is ApplicationContext?
 
 `ApplicationContext` is an **advanced IoC container** built on top of `BeanFactory`.
 

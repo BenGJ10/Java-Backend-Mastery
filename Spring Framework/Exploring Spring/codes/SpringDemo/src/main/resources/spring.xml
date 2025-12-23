@@ -2,13 +2,21 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id= "employee" class = "com.bengregory.Employee" scope="prototype">
-        <constructor-arg value="Ben Gregory"/>  <!-- constructor injection -->
-        <constructor-arg value="20"/>
+    <bean id= "employee" class = "com.bengregory.Employee" scope="prototype" autowire="byType">
+        <property name="name" value="Ben Gregory" />
+        <property name="age" value="20" />
+<!--        <property name="subject" ref="subject" />-->
+        
+<!--        <constructor-arg value="Ben Gregory"/>  -->
+<!--        <constructor-arg value="20"/>-->
+<!--        <constructor-arg value="Programming"/>-->
     </bean>
 
     <bean id= "department" class = "com.bengregory.Department" scope="singleton">
         <property name="name" value="CSE"/> <!-- setter injection -->
     </bean>
+
+    <bean id="subject1" class="com.bengregory.Programming" lazy-init="true"/>
+    <bean id="subject2" class="com.bengregory.Development" primary="true" lazy-init="true"/>
 </beans>
 

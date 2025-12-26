@@ -1,5 +1,9 @@
 package com.bengregory;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Employee {
 
     private String name;
@@ -38,6 +42,7 @@ public class Employee {
         return subject;
     }
 
+    @Autowired
     public void setSubject(Subject subject) {
         this.subject = subject;
     }

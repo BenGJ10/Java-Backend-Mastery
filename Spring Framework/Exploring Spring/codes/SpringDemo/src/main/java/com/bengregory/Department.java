@@ -1,11 +1,19 @@
 package com.bengregory;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Department {
 
     private String name;
 
     public Department() {
         System.out.println("Department object created.");
+    }
+
+    public Department(String name) {
+        System.out.println("Department object created.");
+        this.name = name;
     }
 
     public String getName() {

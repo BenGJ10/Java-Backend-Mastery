@@ -2,10 +2,11 @@ import java.util.PriorityQueue;
 
 public class PriorityQueueDemo {
     public static void main(String[] args) {
-        // Creating a PriorityQueue
-        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+        // Naturally a PriorityQueue in Java is a min-heap
+        // Creating a PriorityQueue max-heap using a custom comparator
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>((Integer a, Integer b) -> b.compareTo(a)); // or Collections.reverseOrder() or (a, b) -> b - a
 
-        // Adding elements to the PriorityQueue, naturally it acts like a min-heap
+        // Adding elements to the PriorityQueue
         priorityQueue.add(8);
         priorityQueue.add(10);
         priorityQueue.add(20);

@@ -64,6 +64,8 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Collections API**](Collections/Collections%20API.md)
 
+- [**When to use which Data Structure**](Collections/When%20to%20use%20what.md) ⭐️
+
 - [How **ArrayList** works?](Collections/ArrayList.md)
 
 - [How **Map** works?](Collections/Map.md)

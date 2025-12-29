@@ -32,7 +32,7 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
   - #### [Generics in Java](Advance%20Java/Generics/)
   
-  - #### [Threads and Concurrency](Advance%20Java/Threads/)
+  - #### [Complete Threads and Concurrency](Advance%20Java/Threads/)
 
   - #### [Collections Framework](Advance%20Java/Collections/)
 
@@ -40,20 +40,30 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
 - ### [Database Concepts](Databases/)
 
-  - #### [JDBC Basics](Databases/JDBC/)
+  - #### [Understanding JDBC Basics](Databases/JDBC/)
 
   - #### [PostgreSQL with Java](Databases/PostgreSQL%20Basics/)
 
-  - #### [Hibernate](Databases/Hibernate/)
+  - #### [Shifting to Hibernate](Databases/Hibernate/)
 
 ---
   
 - ### [Spring Framework](Spring%20Framework/README.md)
 
-  - #### [Spring Core](Spring%20Framework/Introduction/)
+  - #### [Overview of Spring Core](Spring%20Framework/Introduction/)
 
-  - #### [Exploring Spring](Spring%20Framework/Exploring%20Spring/)
+  - #### [Exploring Spring Framework](Spring%20Framework/Exploring%20Spring/)
 
+  - #### [Working with Spring JDBC](Spring%20Framework/Spring%20JDBC/)
+
+
+- ### [Spring Boot Web](Spring%20Boot%20Web/)
+
+  - #### [Introductory to Spring Boot Web](Spring%20Boot%20Web/Introductory/)
+
+  - #### [MVC Architecture in Spring Boot](Spring%20Boot%20Web/MVC%20Architecture/)
+
+  
 ---
 
 ## Goals / Intended outcomes

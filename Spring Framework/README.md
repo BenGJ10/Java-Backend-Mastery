@@ -35,6 +35,14 @@ The Spring Framework is a powerful, feature-rich framework for building Java app
 
 - [**Java based** configuration in Spring](Exploring%20Spring/Java%20based%20Configuration.md)
 
+
+### [3. Spring JDBC](Spring%20JDBC/)
+
+- [Spring **JDBC Overview**](Spring%20JDBC/Spring%20JDBC%20Overview.md)
+
+- [**Controller, Service, Repository** Layer](Spring%20JDBC/Different%20Layers%20in%20SpringBoot.md)
+
+
 ---
 
 ## Under Development

@@ -16,7 +16,7 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 ### [1. Generics in Java](Generics/)
 
-- [**Generics** Overview](Generics/Generics.md)
+- [**Generics** Overview](Generics/Generics.md) ⭐️
 
 - [**Generics** vs **Wildcards**](Generics/Generics%20vs%20Wildcards.md)
 
@@ -60,7 +60,7 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Autoboxing** and **Unboxing**](Collections/Autoboxing%20and%20Unboxing.md)
 
-- [**Collections** Overview](Collections/Collections%20in%20Java.md)
+- [**Collections** Overview](Collections/Collections%20in%20Java.md) ⭐️
 
 - [**Collections API**](Collections/Collections%20API.md)
 
@@ -69,6 +69,8 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 - [How **ArrayList** works?](Collections/ArrayList.md)
 
 - [How **Map** works?](Collections/Map.md)
+
+- [**Internal Working of HashMap**](Collections/Internal%20working%20of%20HashMap.md) ⭐️
 
 - [How **Set** works?](Collections/Set.md)
 
@@ -82,7 +84,7 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 ### [4. Streams in Java](Streams/)
 
-- [**Streams** Overview](Streams/Streams.md)
+- [**Streams** Overview](Streams/Streams.md) ⭐️
 
 - [**Parallel Streams** in Java](Streams/Parallel%20Streams.md)
 

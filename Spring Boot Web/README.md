@@ -20,7 +20,9 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [Overview of **Servlets**](Introductory/Servlets.md)
 
-- [**Apache Tomcat** and Other Java Application Servers](Introductory/Apache%20Tomcat.md)
+- [**Apache Tomcat** and Other Java **Application Servers**](Introductory/Apache%20Tomcat.md)
+
+- [Using **Spring Boot Actuator** for Monitoring](Introductory/Spring%20Boot%20Actuators.md)
 
 ### [2. MVC Architecture in Spring Boot](MVC%20Architecture/)
 

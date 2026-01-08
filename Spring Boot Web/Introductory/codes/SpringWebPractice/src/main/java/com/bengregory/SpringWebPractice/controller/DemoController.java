@@ -17,7 +17,7 @@ public class DemoController {
 
     // Constructor Injection of Tutor bean with Qualifier
     @Autowired
-    public DemoController(@Qualifier("developmentTutor") Tutor tutor){
+    public DemoController(@Qualifier("os") Tutor tutor){
         System.out.println(getClass().getSimpleName() + " has been invoked!");
         this.tutor = tutor;
     }

@@ -24,11 +24,15 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [Using **Spring Boot Actuator** for Monitoring](Introductory/Spring%20Boot%20Actuators.md)
 
+- [**Configuration** in Spring Boot Web Applications](Introductory/Usage%20of%20Config%20Bean.md)
+
 ### [2. MVC Architecture in Spring Boot](MVC%20Architecture/)
 
 - [**MVC Architecture** Overview](MVC%20Architecture/MVC%20Architecture%20in%20SpringBoot.md)
 
 - [Creating a **Spring Boot Project**](MVC%20Architecture/Creating%20a%20SpringBoot%20Project.md)
+
+- [**EntityManager** vs **JpaRepository**](MVC%20Architecture/JPARepository%20vs%20EntityManager.md)
 
 ---
 

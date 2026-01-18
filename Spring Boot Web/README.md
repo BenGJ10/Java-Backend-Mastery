@@ -34,6 +34,11 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [**EntityManager** vs **JpaRepository**](MVC%20Architecture/JPARepository%20vs%20EntityManager.md)
 
+- [**Data Access Object (DAO)** Pattern](MVC%20Architecture/Data%20Access%20Objects.md)
+
+- [**Important Layered Architecture Patterns** in Spring Boot ⭐️](MVC%20Architecture/Layered%20Architecture%20Patterns.md
+)
+
 ---
 
 

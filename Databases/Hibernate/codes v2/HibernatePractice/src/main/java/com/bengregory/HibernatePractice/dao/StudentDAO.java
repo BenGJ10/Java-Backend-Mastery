@@ -50,4 +50,19 @@ public class StudentDAO implements IStudentDAO{
         typedQuery.setParameter("dept", department);
         return typedQuery.getResultList();
     }
+
+    // Implement update() method
+    @Override
+    @Transactional
+    public void update(Student student){
+        entityManager.merge(student);
+    }
+
+    // Implement delete() method
+    @Override
+    @Transactional
+    public void delete(int Id){
+        Student student = findById(Id);
+        if(student != null) entityManager.remove(student);
+    }
 }

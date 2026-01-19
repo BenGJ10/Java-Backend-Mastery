@@ -13,4 +13,8 @@ public interface IStudentDAO {
     List<Student> findAll();
 
     List<Student> findByDepartment(String department);
+
+    void update(Student student);
+
+    void delete(int Id);
 }

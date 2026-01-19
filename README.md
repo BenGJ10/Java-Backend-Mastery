@@ -22,7 +22,7 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
   - #### [Strings and Memory Management](Core%20Java/Strings/)
 
-  - #### [OOPs Principles](Core%20Java/OOPs/)
+  - #### [Understand Java OOPs Principles](Core%20Java/OOPs/)
 
   - #### [Interfaces and Abstract Classes](Core%20Java/Intermediate/)
 
@@ -44,7 +44,7 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
   - #### [PostgreSQL with Java](Databases/PostgreSQL%20Basics/)
 
-  - #### [Shifting to Hibernate](Databases/Hibernate/)
+  - #### [Shifting to Hibernate and JPA](Databases/Hibernate/)
 
 ---
   
@@ -60,6 +60,8 @@ This repository is a study and practice roadmap for achieving mastery in backend
 - ### [Spring Boot Web](Spring%20Boot%20Web/)
 
   - #### [Introductory to Spring Boot Web](Spring%20Boot%20Web/Introductory/)
+
+  - #### [Building RESTful APIs with Spring Boot](Spring%20Boot%20Web/REST%20CRUD%20APIs/)
 
   - #### [MVC Architecture in Spring Boot](Spring%20Boot%20Web/MVC%20Architecture/)
 

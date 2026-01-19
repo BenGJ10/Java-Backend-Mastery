@@ -26,7 +26,14 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [**Configuration** in Spring Boot Web Applications](Introductory/Usage%20of%20Config%20Bean.md)
 
-### [2. MVC Architecture in Spring Boot](MVC%20Architecture/)
+### [2. Spring REST CRUD APIs](REST%20CRUD%20APIs/)
+
+- [**Spring REST CRUD APIs** Overview](REST%20CRUD%20APIs/Spring%20REST%20APIs.md)
+
+- [**Java JSON Data Binding** with Jackson](REST%20CRUD%20APIs/Java%20JSON%20Data%20Binding.md)
+
+
+### [3. MVC Architecture in Spring Boot](MVC%20Architecture/)
 
 - [**MVC Architecture** Overview](MVC%20Architecture/MVC%20Architecture%20in%20SpringBoot.md)
 

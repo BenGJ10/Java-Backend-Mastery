@@ -1,9 +1,9 @@
 package com.bengregory.SpringREST.rest;
 
 import com.bengregory.SpringREST.entity.Student;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.bengregory.SpringREST.utils.StudentNotFoundException;
+import jakarta.annotation.PostConstruct;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,14 +12,32 @@ import java.util.List;
 @RequestMapping("/api")
 public class StudentRestController {
 
-    @GetMapping("/students")
-    public List<Student> getStudents(){
+    private List<Student> students;
 
-        List<Student> students = new ArrayList<>();
-        students.add(new Student(1, "Ben", "Gregory", "CSE"));
+    // Use PostConstruct to load the student data ... only once!
+    @PostConstruct
+    public void loadData(){
+        students = new ArrayList<>();
+        students.add(new Student(0, "Ben", "Gregory", "CSE"));
+        students.add(new Student(1, "Pavan", "Viju", "CSE"));
         students.add(new Student(2, "Ashwika", "B Alex", "BCom"));
         students.add(new Student(3, "Allen", "V Pothen", "MEC"));
+    }
 
+    // Define endpoint for "/students" - return list of students
+    @GetMapping("/students")
+    public List<Student> getStudents(){
         return students;
     }
+
+    // Define endpoint for "/students/{studentId}" - return a student
+    @GetMapping("/students/{studentId}")
+    public Student getStudent(@PathVariable int studentId){
+
+        if((studentId >= students.size()) || (studentId < 0)) {
+            throw new StudentNotFoundException("Student Id not found: " + studentId);
+        }
+        return students.get(studentId);
+    }
+
 }

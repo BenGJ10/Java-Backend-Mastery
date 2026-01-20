@@ -32,6 +32,7 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [**Java JSON Data Binding** with Jackson](REST%20CRUD%20APIs/Java%20JSON%20Data%20Binding.md)
 
+- [**Exception Handling** in Spring REST APIs](REST%20CRUD%20APIs/Exception%20Handling.md)
 
 ### [3. MVC Architecture in Spring Boot](MVC%20Architecture/)
 

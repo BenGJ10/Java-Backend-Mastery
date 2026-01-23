@@ -28,6 +28,8 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
   - #### [Exception Handling](Core%20Java/Exception%20Handling/)
 
+  - #### [Latest Features in Java](Core%20Java/Latest%20Features/)
+
 - ### [Advanced Java Concepts](Advance%20Java/README.md)
 
   - #### [Generics in Java](Advance%20Java/Generics/)

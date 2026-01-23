@@ -105,6 +105,11 @@ This section covers fundamental and advanced Java concepts essential for backend
 - [**Memory Management** in Java](Memory%20Management/Memory%20Management.md)
 
 - [**Garbage Collection** in Java](Memory%20Management/Garbage%20Collection.md)
+
+### [7. Latest Features in Java](Latest%20Features/)
+
+- [**Optional** Class in Java](Latest%20Features/Optional%20Class.md)
+
 ---
 
 ## Next Steps

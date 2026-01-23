@@ -72,6 +72,8 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 
 - [**Internal Working of HashMap**](Collections/Internal%20working%20of%20HashMap.md) ⭐️
 
+- [Working of **LinkedHashMap** and **TreeMap**](Collections/Working%20of%20LinkedHashMap%20and%20TreeMap.md)
+
 - [How **Set** works?](Collections/Set.md)
 
 - [**Comparator** vs **Comparable**](Collections/Comparator%20vs%20Comparable.md)
@@ -91,6 +93,12 @@ This section covers advanced Java programming concepts, focusing on multithreadi
 - [**Optional** Class in Java](Streams/Optional%20Class.md)
 
 - [**Method References** in Java](Streams/Method%20Reference.md)
+
+---
+
+### [5. Latest Features in Java](Latest%20Features/)
+
+- [**Optional** Class in Java](Latest%20Features/Optional%20Class.md)
 
 ---
 

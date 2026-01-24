@@ -36,6 +36,8 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [**Spring Data JPA** Integration](REST%20CRUD%20APIs/Spring%20Data%20JPA.md)
 
+- [**Spring Data REST** for Rapid API Development](REST%20CRUD%20APIs/Spring%20Data%20REST.md)
+
 ### [3. MVC Architecture in Spring Boot](MVC%20Architecture/)
 
 - [**MVC Architecture** Overview](MVC%20Architecture/MVC%20Architecture%20in%20SpringBoot.md)

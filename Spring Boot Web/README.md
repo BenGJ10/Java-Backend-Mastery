@@ -51,6 +51,10 @@ This section focuses on building web applications using Spring Boot. It covers e
 - [**Important Layered Architecture Patterns** in Spring Boot ⭐️](MVC%20Architecture/Layered%20Architecture%20Patterns.md
 )
 
+### [4. Spring Boot Security](Spring%20Boot%20Security/)
+
+- [**Spring Boot Security** Overview](Spring%20Boot%20Security/Spring%20Boot%20Security%20Overview.md)
+
 ---
 
 

@@ -55,6 +55,10 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [**Spring Boot Security** Overview](Spring%20Boot%20Security/Spring%20Boot%20Security%20Overview.md)
 
+- [**Role based Authorization and Method Security**](Spring%20Boot%20Security/Role%20based%20Authorization%20and%20Method%20Security.md)
+
+- [**CSRF** and **CORS** in Spring Boot](Spring%20Boot%20Security/CSRF%20and%20CORS%20in%20Spring%20Boot.md)
+
 ---
 
 

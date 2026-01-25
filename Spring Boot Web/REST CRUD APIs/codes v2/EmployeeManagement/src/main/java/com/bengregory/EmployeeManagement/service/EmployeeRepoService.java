@@ -32,6 +32,10 @@ public class EmployeeRepoService implements IEmployeeService {
         else throw new RuntimeException("Employee id not found: " + id);
 
         return employee;
+
+        /*return employeeRepository.findById(id)
+                .orElseThrow(() ->
+                        new RuntimeException("Employee id not found: " + id));*/
     }
 
     @Override

@@ -59,6 +59,7 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [**CSRF** and **CORS** in Spring Boot](Spring%20Boot%20Security/CSRF%20and%20CORS%20in%20Spring%20Boot.md)
 
+- [**JDBC Authentication** in Spring Boot](Spring%20Boot%20Security/JDBC%20Authentication.md)
 ---
 
 

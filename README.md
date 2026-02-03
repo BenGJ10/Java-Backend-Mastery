@@ -68,7 +68,7 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
   - #### [MVC Architecture in Spring Boot](Spring%20Boot%20Web/MVC%20Architecture/)
 
-  
+  - #### [Spring Boot Security](Spring%20Boot%20Web/Spring%20Boot%20Security/)
 ---
 
 ## Goals / Intended outcomes

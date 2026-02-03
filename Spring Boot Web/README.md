@@ -65,6 +65,8 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [**OWASP Top 10** Security Risks and Mitigations](Spring%20Boot%20Security/OWASP%20Top%2010%20Security%20Risks.md)
 
+- [**Authentication Providers** in Spring Security](Spring%20Boot%20Security/Authentication%20Providers.md)
+
 ---
 
 

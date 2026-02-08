@@ -55,19 +55,23 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [**Spring Boot Security** Overview](Spring%20Boot%20Security/Spring%20Boot%20Security%20Overview.md)
 
-- [**Filters and Filter Chains** in Spring](Spring%20Boot%20Security/Filters%20and%20Filter%20Chains.md)
-
-- [**Role based Authorization and Method Security**](Spring%20Boot%20Security/Role%20based%20Authorization%20and%20Method%20Security.md)
+- [**OWASP Top 10** Security Risks and Mitigations](Spring%20Boot%20Security/OWASP%20Top%2010%20Security%20Risks.md)
 
 - [**CSRF** and **CORS** in Spring Boot](Spring%20Boot%20Security/CSRF%20and%20CORS%20in%20Spring%20Boot.md)
 
-- [**JDBC Authentication** in Spring Boot](Spring%20Boot%20Security/JDBC%20Authentication.md)
+- [**Filters and Filter Chains** in Spring](Spring%20Boot%20Security/Filters%20and%20Filter%20Chains.md)
 
-- [**OWASP Top 10** Security Risks and Mitigations](Spring%20Boot%20Security/OWASP%20Top%2010%20Security%20Risks.md)
+- [**Authentication Providers** in Spring Security](Spring%20Boot%20Security/Authentication%20Providers.md)
 
 - [**Authentication** Workflow in Spring Security](Spring%20Boot%20Security/Authentication%20Workflow.md)
 
-- [**Authentication Providers** in Spring Security](Spring%20Boot%20Security/Authentication%20Providers.md)
+- [**Role based Authorization and Method Security**](Spring%20Boot%20Security/Role%20based%20Authorization%20and%20Method%20Security.md)
+
+- [**JDBC Authentication** in Spring Boot](Spring%20Boot%20Security/JDBC%20Authentication.md)
+
+- [**Method Security** in Spring Boot](Spring%20Boot%20Security/Method%20Security.md)
+
+- [**Password Encoding** in Spring Security](Spring%20Boot%20Security/Password%20Encoding.md)
 
 ---
 

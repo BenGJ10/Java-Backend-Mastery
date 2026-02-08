@@ -61,6 +61,8 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [**Filters and Filter Chains** in Spring](Spring%20Boot%20Security/Filters%20and%20Filter%20Chains.md)
 
+- [**Custom Filters** in Spring Security](Spring%20Boot%20Security/Custom%20Filters.md)
+
 - [**Authentication Providers** in Spring Security](Spring%20Boot%20Security/Authentication%20Providers.md)
 
 - [**Authentication** Workflow in Spring Security](Spring%20Boot%20Security/Authentication%20Workflow.md)

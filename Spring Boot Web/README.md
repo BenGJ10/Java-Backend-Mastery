@@ -57,6 +57,8 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [**OWASP Top 10** Security Risks and Mitigations](Spring%20Boot%20Security/OWASP%20Top%2010%20Security%20Risks.md)
 
+- [All important **Status Codes**](Spring%20Boot%20Security/Status%20Codes.md)
+
 - [**CSRF** and **CORS** in Spring Boot](Spring%20Boot%20Security/CSRF%20and%20CORS%20in%20Spring%20Boot.md)
 
 - [**Filters and Filter Chains** in Spring](Spring%20Boot%20Security/Filters%20and%20Filter%20Chains.md)
@@ -74,6 +76,9 @@ This section focuses on building web applications using Spring Boot. It covers e
 - [**Method Security** in Spring Boot](Spring%20Boot%20Security/Method%20Security.md)
 
 - [**Password Encoding** in Spring Security](Spring%20Boot%20Security/Password%20Encoding.md)
+
+- [Overview of **JWT Authentication** ](Spring%20Boot%20Security/JWT%20Authentication.md)
+
 
 ---
 

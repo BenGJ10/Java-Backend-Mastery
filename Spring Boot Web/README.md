@@ -32,6 +32,8 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [**Spring REST CRUD APIs** Overview](REST%20CRUD%20APIs/Spring%20REST%20APIs.md)
 
+- [**Controller Layer Annotations** in Spring Boot](REST%20CRUD%20APIs/Spring%20Boot%20Controller%20Layer%20Annotations.md)
+
 - [**Java JSON Data Binding** with Jackson](REST%20CRUD%20APIs/Java%20JSON%20Data%20Binding.md)
 
 - [**Exception Handling** in Spring REST APIs](REST%20CRUD%20APIs/Exception%20Handling.md)

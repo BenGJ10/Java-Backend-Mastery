@@ -22,6 +22,8 @@ This section focuses on building web applications using Spring Boot. It covers e
 
 - [**Apache Tomcat** and Other Java **Application Servers**](Introductory/Apache%20Tomcat.md)
 
+- [**Maven** and its Lifecycle](Introductory/Maven%20and%20Lifecycle.md)
+
 - [Using **Spring Boot Actuator** for Monitoring](Introductory/Spring%20Boot%20Actuators.md)
 
 - [**Configuration** in Spring Boot Web Applications](Introductory/Usage%20of%20Config%20Bean.md)

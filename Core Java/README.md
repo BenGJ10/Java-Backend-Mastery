@@ -74,6 +74,8 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**Class** vs **Interface** vs **Abstract Class**](Intermediate/Class%20vs%20Abstract%20Class%20vs%20Interface.md)
 
+- [**Reflection** in Java](Intermediate/Reflection.md)
+
 - [**Annotation** in Java](Intermediate/Annotations.md)
 
 - [**Functional Interfaces** in Java](Intermediate/Functional%20Interfaces.md)

@@ -2,9 +2,16 @@
 
 ## 1. Overview
 
-Pointcuts are the filter that decides **which methods a Spring aspect should apply to**.
+Pointcuts are a core concept in Spring AOP that define **where cross-cutting concerns should be applied**.
 
-This file explains how pointcuts participate in the AOP flow, from the client call to the final advice execution.
+They act as a **filtering mechanism** that selects specific join points (method executions in Spring AOP) where advice should run.
+
+In simpler terms:
+
+* **Pointcut = WHERE to apply logic**
+* **Advice = WHAT logic to apply**
+
+Spring AOP only supports **method-level join points**, so pointcuts are always evaluated against method executions.
 
 ---
 
@@ -14,9 +21,11 @@ This file explains how pointcuts participate in the AOP flow, from the client ca
 Client → Proxy → Pointcut Match → Advice → Target Method
 ```
 
-That flow is the heart of Spring AOP.
+This flow represents how Spring applies cross-cutting concerns dynamically at runtime.
 
-The pointcut is checked first. If the method matches, the advice runs around the target method.
+### Key Insight:
+
+The **pointcut evaluation happens before advice execution**, and it determines whether the advice chain should be invoked.
 
 ---
 
@@ -24,39 +33,97 @@ The pointcut is checked first. If the method matches, the advice runs around the
 
 ### Step 1: A bean is created
 
-Spring creates the target bean as usual.
+Spring initializes the target bean during context startup.
+
+* At this stage, the bean is just a normal Java object.
+* No AOP logic is applied yet.
+
+---
 
 ### Step 2: Spring creates a proxy
 
-If the bean has aspects applied to it, Spring returns a proxy instead of the raw object.
+If Spring detects that:
+
+* The bean matches a pointcut, OR
+* There is an aspect targeting it
+
+Then it wraps the bean inside a **proxy object**.
+
+Spring uses:
+
+* **JDK Dynamic Proxy** → if interfaces are present
+* **CGLIB Proxy** → if no interfaces (class-based proxy)
+
+---
 
 ### Step 3: Client calls the method
 
-The method call goes to the proxy.
+Instead of calling the actual object, the client interacts with the **proxy**.
+
+This is critical:
+
+> The proxy is the entry point for all AOP logic.
+
+---
 
 ### Step 4: Proxy checks the pointcut
 
-The proxy compares the method against the pointcut expression.
+When a method is invoked:
+
+1. The proxy intercepts the call
+2. It evaluates all relevant pointcut expressions
+3. It determines whether the method matches any pointcut
+
+This evaluation includes:
+
+* Method signature
+* Class type
+* Annotations
+* Arguments (if specified)
+
+---
 
 ### Step 5: If it matches, advice runs
 
-The advice executes before, after, or around the target method depending on the annotation used.
+If the pointcut matches:
+
+* Spring builds an **advice chain**
+* Executes advice in a defined order
+
+Advice types:
+
+* `@Before`
+* `@After`
+* `@AfterReturning`
+* `@AfterThrowing`
+* `@Around` (most powerful)
+
+---
 
 ### Step 6: The target method executes
 
-The business method runs if the advice allows it.
+* The actual business logic runs
+* Control returns through the advice chain
+
+For `@Around`, the method executes only if `proceed()` is called.
 
 ---
 
 ## 4. What Happens When the Pointcut Does Not Match?
 
-If the method does not match the pointcut:
+If the method does not match:
 
-* no advice is applied
-* the proxy passes the call straight through
-* the target method executes normally
+* No advice chain is created
+* No interception logic is applied
+* The proxy directly invokes the target method
 
-This is why pointcuts are important: they decide the scope of the aspect.
+```text
+Client → Proxy → Target Method (no advice)
+```
+
+### Important:
+
+Even if a proxy exists, **no performance-heavy logic is triggered unless the pointcut matches**.
 
 ---
 
@@ -76,35 +143,84 @@ public class LoggingAspect {
 }
 ```
 
-When a service method is called:
+### Execution Flow:
 
-1. Proxy receives the call
-2. Pointcut checks whether the method is in `com.example.service`
-3. If yes, `@Before` advice runs
-4. Target method executes
+1. Client calls `UserService.getUser()`
+2. Proxy intercepts the call
+3. Pointcut checks:
+
+   * Is method inside `com.example.service`? → Yes
+4. `@Before` advice executes
+5. Target method runs
 
 ---
 
 ## 6. Matching by Pattern
 
-Pointcuts work by pattern matching.
+Pointcuts rely on **AspectJ expression syntax**.
 
-Examples:
+### Common Patterns:
 
-* class and package patterns
-* method name patterns
-* argument patterns
-* annotation-based matching
+#### 1. Execution Expression
 
-This means the pointcut is essentially a rule engine for method selection.
+```java
+execution(modifiers-pattern? return-type class-pattern method-pattern(param-pattern))
+```
+
+Example:
+
+```java
+execution(public * com.example.service.*.*(..))
+```
+
+---
+
+#### 2. Wildcards
+
+| Symbol | Meaning                                  |
+| ------ | ---------------------------------------- |
+| `*`    | matches any name                         |
+| `..`   | matches zero or more parameters/packages |
+
+---
+
+#### 3. Examples
+
+```java
+execution(* *(..))                  // all methods
+execution(* com.app.*.*(..))       // all methods in a package
+execution(* *.save(..))            // methods named save
+execution(* *(String, ..))         // methods with String as first argument
+```
+
+---
+
+#### 4. Annotation-based
+
+```java
+@annotation(com.example.Loggable)
+```
+
+---
+
+#### 5. Within / Target
+
+```java
+within(com.example.service..*)
+target(com.example.service.UserService)
+```
+
+---
+
+### Key Insight:
+
+Pointcuts are essentially **declarative rules for method selection**, evaluated dynamically.
 
 ---
 
 ## 7. How Advice and Pointcut Fit Together
 
-The pointcut decides **where**.
-
-The advice decides **what to do**.
+A pointcut alone does nothing until paired with advice.
 
 Example:
 
@@ -115,130 +231,218 @@ public void log() {
 }
 ```
 
-Here:
+### Breakdown:
 
-* `serviceMethods()` is the pointcut
-* `log()` is the advice
+* `serviceMethods()` → defines scope
+* `log()` → defines behavior
 
-They work together inside one aspect.
+Together, they form a **complete AOP rule**.
 
 ---
 
 ## 8. Why Spring Uses Proxies
 
-Spring does not usually modify your classes directly.
+Spring AOP is **proxy-based**, not bytecode modification (unlike full AspectJ).
 
-Instead, it wraps them in a proxy so it can intercept method calls and check whether the pointcut matches.
+### Advantages:
 
-That is why AOP in Spring is:
+* No compile-time weaving
+* Lightweight and flexible
+* Works with standard Spring beans
 
-* lightweight
-* runtime-based
-* method-oriented
+### Limitation:
+
+* Only works for **method calls via proxy**
+* Cannot intercept:
+
+  * field access
+  * constructor calls
+  * internal method calls (self-invocation)
 
 ---
 
 ## 9. Self-Invocation Limitation
 
-If one method inside a class calls another method in the same class, the call may bypass the proxy.
-
-Example:
+### Problem:
 
 ```java
 public void outer() {
-    inner();
-}
-
-public void inner() {
+    inner();  // direct call
 }
 ```
 
-If `outer()` calls `inner()` directly, the pointcut may not be applied to `inner()` because the call does not pass through the proxy.
+* `outer()` is called via proxy
+* `inner()` is called directly (no proxy)
 
-This is one of the most common Spring AOP gotchas.
+### Result:
+
+Pointcut is **not applied** to `inner()`
+
+---
+
+### Solutions:
+
+1. Move method to another bean
+2. Inject self proxy
+3. Use full AspectJ (compile-time weaving)
 
 ---
 
 ## 10. AOP Flow and Transaction Example
 
-Spring transactions often work through the same flow.
+Spring transactions are implemented using AOP internally.
 
 ```text
-Call service method
-→ proxy checks transaction-related pointcut
-→ transaction begins
-→ method executes
-→ commit or rollback
+Client → Proxy → Transaction Pointcut Match
+→ Start Transaction
+→ Execute Method
+→ Commit / Rollback
 ```
 
-This is how `@Transactional` works conceptually.
+### Example:
+
+```java
+@Transactional
+public void transferMoney() {
+}
+```
+
+Behind the scenes:
+
+* A transaction aspect applies
+* The pointcut matches methods annotated with `@Transactional`
 
 ---
 
-## 11. Mental Model
+## 11. Internal Mechanics (Important for Interviews)
 
-Think of the proxy as a gatekeeper.
+### Key Components:
 
-The pointcut asks:
+* **Advisor** = Pointcut + Advice
+* **Advised Object** = Target wrapped with advisors
+* **MethodInterceptor** = Executes advice
 
-> Does this method qualify?
+### Flow Internally:
 
-If yes, the advice is allowed to run.
+```text
+Proxy → Advisor Chain → MethodInterceptor → Target Method
+```
 
-If no, the call goes directly to the target method.
-
----
-
-## 12. Common Mistakes
-
-* expecting pointcuts to run on every method automatically
-
-* forgetting the proxy layer exists
-
-* assuming self-invocation is intercepted
-
-* using pointcuts that are too broad
-
-* mixing the pointcut logic with business code
+Spring builds a **chain of interceptors** based on matching pointcuts.
 
 ---
 
-## 13. Interview Questions
+## 12. Mental Model
+
+Think of the system as:
+
+* Proxy = Gatekeeper
+* Pointcut = Filter rule
+* Advice = Action
+
+```text
+"Should this method be intercepted?"
+        ↓
+     Pointcut
+        ↓
+  Yes → Advice runs
+  No  → Direct execution
+```
+
+---
+
+## 13. Performance Consideration
+
+* Pointcut matching is optimized and cached
+* Proxy overhead is minimal in most applications
+* Excessively broad pointcuts can:
+
+  * reduce performance
+  * increase debugging complexity
+
+---
+
+## 14. Common Mistakes
+
+* Expecting AOP to apply without proxy involvement
+
+* Writing overly broad pointcuts (`execution(* *(..))`)
+
+* Ignoring self-invocation limitation
+
+* Misunderstanding `@Around` (not calling `proceed()`)
+
+* Mixing business logic inside aspects
+
+---
+
+## 15. Best Practices
+
+* Keep pointcuts **specific and readable**
+
+* Use **named pointcuts** for reuse
+
+* Prefer **annotation-based pointcuts** for clarity
+
+* Avoid applying AOP on very high-frequency methods unnecessarily
+
+---
+
+## 16. Interview Questions
 
 ### Q1. What is the role of a pointcut in AOP?
 
-It selects which methods should be intercepted.
+It defines which methods (join points) should be intercepted by advice.
 
 ---
 
 ### Q2. What happens if a method does not match the pointcut?
 
-The advice does not run, and the method executes normally.
+The proxy bypasses advice and directly calls the target method.
 
 ---
 
 ### Q3. Why does Spring use proxies in AOP?
 
-To intercept method calls and apply advice at runtime.
+To intercept method calls at runtime without modifying the actual class.
 
 ---
 
 ### Q4. What is self-invocation in Spring AOP?
 
-When one method in the same class calls another method directly, bypassing the proxy.
+A method inside the same class calling another method directly, bypassing the proxy.
+
+---
+
+### Q5. What is the difference between Pointcut and Advice?
+
+* Pointcut → defines **where**
+* Advice → defines **what**
+
+---
+
+### Q6. What is an Advisor?
+
+An Advisor combines a pointcut and advice into a single unit used by the proxy.
 
 ---
 
 ## Key Takeaways
 
-* Pointcuts decide where advice applies
+* Pointcuts define **method selection logic**
 
-* Spring AOP uses proxies to intercept calls
+* Spring AOP is **proxy-based and runtime-driven**
 
-* The flow is client → proxy → pointcut check → advice → target method
+* Flow:
 
-* If the pointcut does not match, the method runs normally
+  ```text
+  Client → Proxy → Pointcut → Advice → Target
+  ```
 
-* Self-invocation can bypass Spring AOP interception
+* If no match → direct execution
+
+* Self-invocation bypasses AOP
+
+* Advisors and interceptors power the internal mechanism
 
 ---

@@ -42,6 +42,28 @@ The Spring Framework is a powerful, feature-rich framework for building Java app
 
 - [**Controller, Service, Repository** Layer](Spring%20JDBC/Different%20Layers%20in%20SpringBoot.md)
 
+### [4. Spring Annotations](Spring%20Framework/Spring%20Annotations/)
+
+- [**`@Autowired`** Annotation](Spring%20Annotations/Autowired.md)
+
+- [**`@Controller`** layer annotations](Spring%20Annotations/Controller%20Layer%20Annotations.md)
+
+- [**`@Component`** Annotation](Spring%20Annotations/Component.md)
+
+- [**`@Service`** Annotation](Spring%20Annotations/Service.md)
+
+- [**`Profile`** and **`@Conditional`** Annotations](Spring%20Annotations/Profile%20and%20Conditional.md)
+
+
+### [5. Aspect-Oriented Programming (AOP)](Aspect%20Oriented%20Programming/)
+
+- [**Overview of AOP**](Aspect%20Oriented%20Programming/Overview%20of%20AOP.md)
+
+- [**Pointcut** in AOP](Aspect%20Oriented%20Programming/Pointcut.md)
+
+- [**How Pointcut Works** and AOP Flow](Aspect%20Oriented%20Programming/How%20Pointcut%20Works.md)
+
+
 
 ---
 

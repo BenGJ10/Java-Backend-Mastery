@@ -59,6 +59,10 @@ This repository is a study and practice roadmap for achieving mastery in backend
 
   - #### [Working with Spring JDBC](Spring%20Framework/Spring%20JDBC/)
 
+  - #### [Important Spring Annotations](Spring%20Framework/Spring%20Annotations/)
+
+  - #### [Aspect-Oriented Programming (AOP)](Spring%20Framework/Aspect%20Oriented%20Programming/)
+
 
 - ### [Spring Boot Web](Spring%20Boot%20Web/)
 

@@ -63,6 +63,9 @@ The Spring Framework is a powerful, feature-rich framework for building Java app
 
 - [**How Pointcut Works** and AOP Flow](Aspect%20Oriented%20Programming/How%20Pointcut%20Works.md)
 
+- [Understand how **`@Transactional`** works in Spring](Aspect%20Oriented%20Programming/Transactional.md)
+
+- [**Declarative vs Programmatic** Approach, and **Propagation Types**](Aspect%20Oriented%20Programming/Transaction%20Hierarchy%20and%20Approaches.md)
 
 
 ---

@@ -348,7 +348,7 @@ public class JwtFilter
 
 These intercept outgoing HTTP requests made by your application.
 
-# 8.1 RestTemplate Interceptor
+### 8.1 RestTemplate Interceptor
 
 ```java
 public class LoggingInterceptor

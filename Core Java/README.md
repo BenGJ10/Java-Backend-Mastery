@@ -62,7 +62,7 @@ This section covers fundamental and advanced Java concepts essential for backend
 
 - [**instanceof** Operator](OOPs/instanceof%20Operator.md)
 
-### [4. Interfaces and Abstract Classes](Intermediate/)
+### [4. Interfaces and Classes](Intermediate/)
 
 - [**Abstract** Classes](Intermediate/abstract%20Keyword.md)
 
@@ -73,6 +73,8 @@ This section covers fundamental and advanced Java concepts essential for backend
 - [**Interfaces** in Java](Intermediate/Interfaces.md)
 
 - [**Class** vs **Interface** vs **Abstract Class**](Intermediate/Class%20vs%20Abstract%20Class%20vs%20Interface.md)
+
+- [**Singleton** class in Java](Intermediate/Singleton%20Class.md)
 
 - [**Reflection** in Java](Intermediate/Reflection.md)
 
